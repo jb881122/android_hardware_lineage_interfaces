@@ -20,6 +20,7 @@
 #include <hidlmemory/mapping.h>
 #include <log/log.h>
 #include <utils/Trace.h>
+#include <linux/fcntl.h>
 
 #include <media/hardware/HardwareAPI.h> // For VideoNativeHandleMetadata
 #include "CameraDevice_1_0.h"
